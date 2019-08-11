@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.firstapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iphoto"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MyActivity.RecyclerViewActivity"
+            android:label="@string/title_activity_recycler_view">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MyActivity.ImgDetailActivity"
+            android:label="@string/title_activity_img_detail">
+
+        </activity>
+
+
+    </application>
+
+</manifest>
