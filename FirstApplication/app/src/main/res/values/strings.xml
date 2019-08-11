@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_recycler_view">相册</string>
+    <string name="title_activity_img_detail">ImgDetailActivity</string>
+</resources>
